@@ -1,0 +1,25 @@
+=== DW ReWrite ===
+
+Donate link: http://www.danielwoolnough.com/contact/coffee/
+Tags: daniel, woolnough, dw, login, rewrite, htaccess, rewrite api, WordPress, 
+Contributors: Daniel Woolnough
+Tested up to: 3.1.4
+Stable tag: 1.0
+Requires at least: 3.0
+
+== Description ==
+
+Creates a new rewerite rule that will allow users to login from "yourdomain.com/login" instead of the WordPress default login URL "yourdomain.com/wp-login.php" and also allow them to access the WordPress Dashboard from "/admin" instead of "/wp-admin/".  This plugin takes advantage of the WordPress Rerite API.
+"/wp-login.php" & "/wp-admin/" will still work but the rewritten URl will look better if your linking to the new URL and giving it our to people. :)
+ 
+== Installation ==
+
+Install this plugin as you would any other plugin.
+
+1. Upload folder and files to your "/wp-content/plugins/" directory using an ftp cleint such as FileZilla.
+   (you can also use the Built-In plugin Uploader if you want).
+2. Activate the plugin through the "Plugins" menu in WordPress.
+3. Your Done. Go to http://www.yourdomain.com/login to test out your new login rewrite.
+4. OPTIONAL: make a small donation http://www.danielwoolnough.com/contact/coffee/.
+
+Thanks for tesing out. Please leave a comment on http://www.danielwoolnough.com/product/dw-rewrite/ and tell people what you thought and if it worked for you.
