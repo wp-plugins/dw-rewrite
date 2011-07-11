@@ -1,8 +1,7 @@
 === DW ReWrite ===
-
+Contributors: Daniel Woolnough
 Donate link: http://www.danielwoolnough.com/contact/coffee/
 Tags: daniel, woolnough, dw, login, rewrite, htaccess, rewrite api, WordPress, 
-Contributors: Daniel Woolnough
 Tested up to: 3.1.4
 Stable tag: 1.0
 Requires at least: 3.0
@@ -14,12 +13,26 @@ Creates a new rewerite rule that will allow users to login from "yourdomain.com/
  
 == Installation ==
 
-Install this plugin as you would any other plugin.
+There are two ways to install this plugin.
 
-1. Upload folder and files to your "/wp-content/plugins/" directory using an ftp cleint such as FileZilla.
-   (you can also use the Built-In plugin Uploader if you want).
-2. Activate the plugin through the "Plugins" menu in WordPress.
-3. Your Done. Go to http://www.yourdomain.com/login to test out your new login rewrite.
-4. OPTIONAL: make a small donation http://www.danielwoolnough.com/contact/coffee/.
+= Method 1 - WordPress Upload =
+1. Go to your add new plugins page and click on the upload link.
+2. Find where you have downloaded the file and upload it to your website.
+3. Activate the plugin once uploaded.
 
-Thanks for tesing out. Please leave a comment on http://www.danielwoolnough.com/product/dw-rewrite/ and tell people what you thought and if it worked for you.
+= Method 2 - FTP Upload =
+
+1. Extract the downloaded file to your desktop.
+2. Upload `dw-admin-footer` folder to the `/wp-content/plugins/` directory using an FTP client.
+3. Activate the plugin through the 'Plugins' menu in WordPress
+
+== Frequently Asked Questions ==
+
+= Is This Plugin Free? =
+Yes, This plugin is free to use and do whatever you want with it, use it on client website or your personal blog.
+
+= Is there any configuration? =
+No, just activate the plugin and your ready to go.
+
+= Change Log =
+Not Yet Available
