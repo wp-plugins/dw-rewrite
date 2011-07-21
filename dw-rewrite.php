@@ -1,12 +1,15 @@
 <?php
 /*
-Plugin Name: DW ReWrite
-Plugin URI: http://www.danielwoolnough.com/product/dw-rewrite/
-Description: This plugin enhances the WordPress login and admin interface by changing the URL's from "/wp-login.php" & "/wp-admin/" to a much better looking "/login" & "/admin". 
+Plugin Name: 		DW ReWrite
+Plugin URI: 		http://www.danielwoolnough.com/portfolio/dw-rewrite/
+Description: 		his plugin enhances the WordPress login and admin interface by changing the URL's from "/wp-login.php" & "/wp-admin/" to a much better looking "/login" & "/admin". 
 ("/wp-login.php" & "/wp-admin/" will still work as it did before).
-Version: 1.1
-Author: Daniel Woolnough
-Author URI: http://www.danielwoolnough.com/
+Requires at least: 	3.0
+Tested up to: 		3.1.4
+Version: 			1.1
+Tags: 				dw, admin, login, rewite, daniel, woolnough
+Author: 			Daniel Woolnough
+Author URI:			http://www.danielwoolnough.com/
 */
 
 // Adds rewrite rule and flushed the plugin on activation (Do Not Change!)
