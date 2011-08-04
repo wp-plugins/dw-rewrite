@@ -2,12 +2,13 @@
 /*
 Plugin Name: 		DW ReWrite
 Plugin URI: 		http://www.danielwoolnough.com/portfolio/dw-rewrite/
-Description: 		his plugin enhances the WordPress login and admin interface by changing the URL's from "/wp-login.php" & "/wp-admin/" to a much better looking "/login" & "/admin". 
-("/wp-login.php" & "/wp-admin/" will still work as it did before).
+Description: 		Creates a new rewrite rule that will allow users to login, access WP dashboard, Register 
+					and access the forgot password page using using "pretty" urls instead of the regular, ugly, 
+					default WordPress URLs. This plugin takes advantage of the WordPress Rewrite API.
 Requires at least: 	3.0
-Tested up to: 		3.1.4
-Version: 			1.1
-Tags: 				dw, admin, login, rewite, daniel, woolnough
+Tested up to: 		3.2.1
+Version: 			1.2
+Tags: 				daniel, woolnough, dw, login, rewrite, htaccess, rewrite api, WordPress, admin, register, forgot, password, pretty URLs, pretty links, 
 Author: 			Daniel Woolnough
 Author URI:			http://www.danielwoolnough.com/
 */
@@ -30,4 +31,6 @@ add_action( 'init', 'rewrite' );
 function rewrite() {
 	add_rewrite_rule( 'admin/?$', 'wp-admin', 'top' );
 	add_rewrite_rule( 'login/?$', 'wp-login.php', 'top' );
+	add_rewrite_rule( 'register/?$', 'wp-login.php?action=register', 'top' );
+	add_rewrite_rule( 'forgot-password/?$', 'wp-login.php?action=lostpassword', 'top' );
 }

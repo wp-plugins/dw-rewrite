@@ -2,17 +2,18 @@
 
 Contributors: Daniel Woolnough
 Donate link: http://www.danielwoolnough.com/contact/coffee/
-Tags: daniel, woolnough, dw, login, rewrite, htaccess, rewrite api, WordPress, 
+Tags: daniel, woolnough, dw, login, rewrite, htaccess, rewrite api, WordPress, admin, register, forgot, password, pretty URLs, pretty links, 
 Requires at least: 3.0
-Tested up to: 3.1.4
-Stable tag: 1.0
+Tested up to: 3.2.1
+Stable tag: 1.2
 
-Creates a new rewrite rule that will allow users to login using /login and /admin instead of the default /wp-login.php and /wp-admin/. This plugin takes advantage of the WordPress Rewrite API.
+Creates a new rewrite rule that will allow users to login, access WP dashboard, Register and access the forgot password page using using "pretty" urls instead of the regular, ugly, default WordPress URLs. This plugin takes advantage of the WordPress Rewrite API.
 
 == Description ==
 
-Creates a new rewerite rule that will allow users to login from "yourdomain.com/login" instead of the WordPress default login URL "yourdomain.com/wp-login.php" and also allow them to access the WordPress Dashboard from "/admin" instead of "/wp-admin/".  This plugin takes advantage of the WordPress Rerite API.
-"/wp-login.php" & "/wp-admin/" will still work but the rewritten URl will look better if your linking to the new URL and giving it our to people. :)
+This plugin creates 4 rewrite rules that will allow users to login, register, access the forgot password form and the admin dashboard using pretty URLs. An example of this would be "/admin" to access "/wp-amdin/" and "/login" for "/wp-login.php". This is what is called a "pretty" URL.
+This plugin takes advantage of the WordPress Rerite API.
+The original links will still work but it just looks a bit better is passing out links.
  
 == Installation ==
 
@@ -43,6 +44,10 @@ Creates a new rewerite rule that will allow users to login from "yourdomain.com/
 Yes, This plugin is free to use and do whatever you want with it, use it on client website or your personal blog.
 
 == Change Log ==
+
+= 1.2 =
+Added the function /register
+Added the function /forgot-password
 
 = 1.1 =
 Added Change log,
